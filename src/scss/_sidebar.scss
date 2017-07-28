@@ -1,4 +1,5 @@
 .sidebar {
+	z-index: 1001;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -8,11 +9,11 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #353535;
+	background-color: $nav-bg-color;
 
 	.sidebar-header {
 		height: $height-header;
-		background-color: #282828;
+		background-color: $nav-logo-bg-color;
 		width: 100%;
 		display: flex;
 		justify-content: center;
@@ -59,7 +60,7 @@
 	border-left: .4em solid $brand-danger;
 }
 .nav-item.active {
-	background-color: lighten(#353535, 5%);
+	background-color: lighten($nav-bg-color, 5%);
 	a {
 		color: white;
 	}
