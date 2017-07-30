@@ -1,0 +1,52 @@
+.messages-box {
+	.message {
+		display: flex;
+		flex-direction: row;
+		align-content: baseline;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+		
+		.message-img {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			//justify-content: center;
+
+			max-width: 100px;
+			max-height: 100px;
+			
+			&:after {
+				content: "";
+				display: block;
+				width: 0;
+				height: $message-lines-height;
+				margin: $message-lines-margin 0;
+				border: 1px solid #d3d3d3;
+			}
+		}
+		.message-content {
+			margin-left: 2em;
+		}
+
+		&:last-child {
+			.message-img {
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+	
+	.message-title {
+		font-weight: bold;
+		.fa {
+			font-weight: normal;
+			color: rgba(0, 0, 0, .2);
+		}
+	}
+	.message-text {
+		font-size: .8em;
+	}
+}

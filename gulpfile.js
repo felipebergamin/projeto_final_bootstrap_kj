@@ -21,7 +21,7 @@ gulp.task("cache:img", function() {
 });
 
 gulp.task("cache:fa", function() {
-	del('./dist/fonts');
+	del.sync('./dist/fonts');
 });
 
 gulp.task("copy-img", ["cache:img"], function() {

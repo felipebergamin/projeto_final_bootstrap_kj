@@ -1,8 +1,28 @@
 @import "../components/bootstrap/scss/bootstrap";
 @import "../components/components-font-awesome/scss/font-awesome";
 
-@import "./_variables";
+@import "variables";
+@import "sidebar";
+@import "header";
+@import "card";
+@import "messages_box";
 
-@import "./_sidebar";
+.content {
+	.row {
+		@include make-row;
 
-@import "./header";
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.container {
+		margin-top: $height-header + 30px;
+		width: 100%;
+	}
+
+	.left-column,
+	.right-column {
+		width: 100%;
+		padding-bottom: 2em;
+	}
+}
