@@ -63,3 +63,8 @@
     }
   }
 }
+
+@mixin make-col-project ($col) {
+  @include make-col($col);
+  @include make-gutters($grid-gutter-widths);
+}
