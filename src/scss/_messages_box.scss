@@ -23,8 +23,8 @@
 				content: "";
 				display: block;
 				width: 0;
-				height: $message-lines-height;
-				margin: $message-lines-margin 0;
+				height: $message-box-line-height;
+				margin: $message-box-line-margin-top-bottom 0;
 				border: 1px solid #d3d3d3;
 			}
 		}

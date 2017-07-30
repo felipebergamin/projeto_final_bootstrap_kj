@@ -8,7 +8,7 @@
 
 	z-index: 1000;
 
-	color: white;
+	color: $header-font-color;
 
 	.container {
 		height: inherit;
@@ -49,7 +49,7 @@
 		font-size: 2em;
 		
 		.fa {
-			color: white;
+			color: $header-font-color;
 		}
 	}
 }

@@ -46,6 +46,7 @@
 			.badge-counter {
 				display: flex;
 				align-items: center;
+				align-content: center;
 				justify-content: center;
 				width: 1.2em;
 				height: 1.2em;
@@ -85,10 +86,11 @@
 .nav-item.border-red {
 	border-left: .2em solid $brand-danger;
 }
+
 .nav-item.active {
 	background-color: lighten($nav-bg-color, 5%);
 	a {
-		color: white;
+		color: $nav-item-active-color;
 	}
 
 	&:after {
@@ -97,7 +99,7 @@
 		position: absolute;
 		right: 0;
 
-		color: white;
+		color: $nav-item-active-color;
 		margin: auto 0;
 	}
 }
