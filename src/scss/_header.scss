@@ -1,0 +1,48 @@
+.header {
+	width: 100%;
+	height: $height-header;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: $nav-bg-color;
+
+	z-index: 1000;
+
+	color: white;
+
+	.container {
+		height: inherit;
+		display: flex;
+		flex-direction: row;
+
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.header-tools {
+		li {
+			list-style: none;
+		}
+	}
+
+	.header-tools {
+		font-weight: bold;
+		display: flex;
+		flex-direction: row;
+		margin: 0 0;
+		padding: 0 0;
+
+		.separator {
+			padding: 0 1em;
+			color: darken($nav-bg-color, 6%);
+		}
+	}
+
+	.off-canvas {
+		font-size: 2em;
+		
+		.fa {
+			color: white;
+		}
+	}
+}
