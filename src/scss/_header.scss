@@ -38,8 +38,13 @@
 		align-items: center;
 		margin: 0 0;
 		padding: 0 0;
-
+		
+		a {
+			color: $header-font-color;
+			text-decoration: none;
+		}
 		.separator {
+			cursor: default;
 			padding: 0 1em;
 			color: darken($nav-bg-color, 6%);
 		}
