@@ -1,19 +1,13 @@
-// @import "utilities/align";
-// @import "utilities/background";
+@import "utilities/align";
+@import "utilities/background";
 @import "utilities/borders";
-// @import "utilities/clearfix";
-// @import "utilities/display";
-// @import "utilities/flex";
-// @import "utilities/float";
-// @import "utilities/position";
-// @import "utilities/screenreaders";
-// @import "utilities/sizing";
-// @import "utilities/spacing";
-// @import "utilities/text";
-// @import "utilities/visibility";
-
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+@import "utilities/clearfix";
+@import "utilities/display";
+@import "utilities/flex";
+@import "utilities/float";
+@import "utilities/position";
+@import "utilities/screenreaders";
+@import "utilities/sizing";
+@import "utilities/spacing";
+@import "utilities/text";
+@import "utilities/visibility";
